@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DEPI Example</title>
+    <link rel="stylesheet" href="fis2.css">
+</head>
+<body>
+    <nav>
+  <ul align="center" style="list-style-type: none">
+    <span style="padding: 30px;"><a href="#wel">Home</a></span>
+    <span style="padding: 30px;"><a href="#DEPI">DEPI</a></span>
+    <span style="padding: 30px";><a href="#cr7">Cristiano Ronaldo</a></span>
+    <span style="padding: 30px";><a href="#Form">Form</a></span>
+  </ul>
+</nav>
+    <div style="background-color: grey; border-radius: 10%; padding: 5%;">
+        <h1 id="wel">
+    Welcome to DEPI Example Page            
+        </h1>
+        <p style="color: blue; font: size 18px; ;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quibusdam ab mollitia, est debitis omnis nemo? Dignissimos inventore aut autem nobis minus corporis repellendus itaque, placeat excepturi aliquid harum modi?</p>
+            <br><br>
+            <!-- second Section -->
+    <h1 style="font-weight: bold;" id="DEPI">
+        DEPI Example Page
+    </h1>   
+<p style="color: blue; font-size: 18px;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat tempora excepturi voluptates molestiae odit magni. Totam, officiis rerum eligendi natus quos aspernatur sunt sit odio libero laudantium veniam nulla?
+</p>
+   <br><br>
+   <!-- third Section -->
+    <h1 style="font-weight: bold;" id="cr7">
+        Cridtisno Ronaldo</h1>   
+<p style="color: blue; font-size: 18px;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fugiat tempora excepturi voluptates molestiae odit magni. Totam, officiis rerum eligendi natus quos aspernatur sunt sit odio libero laudantium veniam nulla?
+</p>
+
+<!-- Image and Video Section -->
+<div style="text-align: center;">
+<img src="cr7.jpg" alt="Cristiano Ronaldo" style="width: 30%; border: 2px solid black; border-radius: 15px;">
+<br>
+<video controls style="width: 30%; border: 2px solid black; border-radius: 15px; ">
+<source src="cr7.mp4" type="video/mp4">
+</video>
+</div>
+    <!-- form  -->
+
+        <div>
+<h1 id="Form">
+Form
+</h1> 
+      <form style="padding-left: 40% ;">
+        <label for="fname">First Name</label><br /><br />
+        <input type="text" name="First Name" id="fname" required /><br /><br />
+        <label for="lname">Last Name</label><br /><br />
+        <input type="text" name="Last Name" id="lname" required /><br /><br />
+        <label for="em">Email</label><br /><br />
+        <input type="email" name="Email" id="em" required /><br /><br />
+        <label for="tel">Phone</label><br /><br />
+        <input
+          type="tel"
+          name="Phone"
+          id="tel"
+          pattern="\d*"
+          inputmode="numeric"
+          placeholder="+20"
+        /><br /><br />
+        <label for="sgg">Your Suggestion</label><br /><br>
+        <textarea name="textarea"id="sgg"rows="5"cols="20" style="resize: none"></textarea><br /> <br />
+        <button type="submit" id="submit">Submit</button>
+        <br /><br /><br /><br />
+      </form>
+    </div>
+</body>
+</html> 
